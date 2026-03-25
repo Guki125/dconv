@@ -41,7 +41,7 @@ A fast, headless CLI tool for batch converting `.docx` / `.doc` files to PDF and
 ### macOS & Linux — one command
 
 ```bash
-git clone https://github.com/your-username/dconv.git
+git clone https://github.com/Guki125/dconv.git
 cd dconv
 chmod +x install.sh && ./install.sh
 ```
@@ -54,7 +54,7 @@ The script automatically:
 ### Windows
 
 ```bat
-git clone https://github.com/your-username/dconv.git
+git clone https://github.com/Guki125/dconv.git
 cd dconv
 install.bat
 ```

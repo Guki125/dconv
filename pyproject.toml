@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docx2pdf-cli"
+version = "1.0.0"
+description = "Пакетний CLI-конвертер DOCX/DOC ↔ PDF"
+requires-python = ">=3.10"
+dependencies = [
+    "docx2pdf>=0.1.8",
+    "pdf2docx>=0.5.6",
+    "tqdm>=4.66.0",
+    "colorama>=0.4.6",
+]
+
+[project.scripts]
+dconv = "docx2pdf_cli.main:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["docx2pdf_cli*"]
